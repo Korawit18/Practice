@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .border {
+            border: 1px solid red;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .helo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0 10px 0;
+            background-image: url("https://media.istockphoto.com/id/1057500046/photo/friendly-chat.jpg?s=612x612&w=0&k=20&c=7-mTmTIhy8oKUZ8XFNayDY6QP1AesUj0_UpCUxZA5aA=");
+            background-position: center;
+            height: 300px;
+        }
+        .btn {
+            border: none;
+            padding: 20px 50px 20px 50px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            background-color: white;
+        }
+        .btn:hover{
+            color: rgb(0, 255, 0);
+        }
+        .circle {
+            background-color: aquamarine;
+            width: 100px;
+            border-radius: 50%;
+            height: 100px;
+        }
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            max-width: 400px;
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="display: flex; justify-content: space-between; padding-left: 100px; padding-right: 100px;">
+        <div style="display: flex; align-items: center;">
+           LOGO
+        </div>
+        <div>
+           <ul style="display: flex; gap: 50px">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Product</a>
+                </li>
+                <li>
+                    <a href="">Pricing</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <section class="helo">
+        <h1> WE HELP YOUR BUSINESS </h1>
+        <p> it is long established fact that a reader will be distracted by the readable content of a page</p>
+        <button class="btn">
+            LEARN MORE
+        </button>
+    </section>
+
+    <section class="border">
+        <h1 style="text-align: center;">OUR PRODUCT</h1>
+    <div style="display: flex; justify-content: center; align-items: start; gap: 50px; border: solid;">
+        <div class="card">
+            <div class="circle"></div>
+            <h4>SEO</h4>
+            <p> it is long established fact that a reader will be distracted by the readable content of a page </p>
+        </div>
+        <div class="card">
+            <div class="circle"></div>
+            <h4>BRANDING</h4>
+            <p> it is long established fact that a reader will be distracted by the readable content of a page </p>
+        </div>
+        <div class="card">
+            <div class="circle"></div>
+            <h4>LOGO</h4>
+            <p> it is long established fact that a reader will be distracted by the readable content of a page </p>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
